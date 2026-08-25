@@ -1,0 +1,29 @@
+{
+  "name": "bot-service",
+  "version": "1.0.0",
+  "description": "Official Qb1tyCinema auth bot. Helps securely link your phone number to your profile.",
+  "main": "./dist/main.js",
+  "scripts": {
+    "start:dev": "nodemon",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/main.js",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "author": {
+    "name": "Arsen",
+    "email": "arman205082@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@qb1tycinema/core": "^1.0.3",
+    "@types/node": "^26.3.0",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.9.6",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "telegraf": "^4.16.3"
+  }
+}
