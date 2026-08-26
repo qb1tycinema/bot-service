@@ -23,6 +23,8 @@
     "typescript": "^7.0.2"
   },
   "dependencies": {
+    "@grpc/grpc-js": "^1.14.4",
+    "@grpc/proto-loader": "^0.8.1",
     "@qb1tycinema/contracts": "^1.1.5",
     "dotenv": "^17.4.2",
     "telegraf": "^4.16.3"
