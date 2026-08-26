@@ -23,6 +23,7 @@
     "typescript": "^7.0.2"
   },
   "dependencies": {
+    "@qb1tycinema/contracts": "^1.1.5",
     "dotenv": "^17.4.2",
     "telegraf": "^4.16.3"
   }
