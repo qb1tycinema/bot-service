@@ -4,6 +4,8 @@ export function getKeyboardMarkup() {
 	return Markup.keyboard([
 		[Markup.button.contactRequest("Поделиться номером")]
 	])
+		.resize()
+		.oneTime()
 }
 
 export function getInlineKeyboardMarkup() {
